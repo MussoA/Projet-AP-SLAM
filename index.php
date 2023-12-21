@@ -47,13 +47,42 @@
        <?php include("php/formation.php"); ?>
     </section>
 
+    
+<article>
+<form id="genre" method="post">
     <section id="contact">
         <h2>contact</h2>
         <?php include("php/contact.php"); ?>
     </section>
+      <p>
+        <input type="radio" name="civi" value="Mme" required /> Madame
+        <input type="radio" name="civi" value="M" required /> Monsieur
+      </p>
+      <br>
+    <label for="prenom">prenom:</label>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+    
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" name="nom" required><br><br>
+    
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+    
+    <input type="submit" value="Envoyer">
+
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LfaRzUpAAAAAHv-TnFnzqahQ20cmn-XzNjMx9nt"></div>
+      <br/>
+    </form>
+</article>
+</body>
     <footer>
         <p></p>
     </footer>
 
-</body>
 </html>
