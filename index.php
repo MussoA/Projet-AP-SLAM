@@ -6,6 +6,7 @@
     <title>Projet</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>src="JVS/acceuil.java"</script>
 </head>
 <body>
     <header>
@@ -31,17 +32,17 @@
         <?php include("php/a propos.php"); ?>
     </section>
 
-    <section id="competences">
+    <section id="Compétences">
         <h2>Compétences</h2>
         <?php include("php/competences.php"); ?>
     </section>
 
-    <section id="experience">
+    <section id="Expérience">
         <h2>experiences</h2>
        <?php include("php/experience.php"); ?>
     </section>
 
-    <section id="formation">
+    <section id="Formation">
         <h2>formation</h2>
        <?php include("php/formation.php"); ?>
     </section>

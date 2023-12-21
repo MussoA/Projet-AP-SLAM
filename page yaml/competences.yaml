@@ -1,10 +1,15 @@
-domaines: 
-items: 
-       
+
+
 Reseau:        Reseau        ★★★☆☆
-developpement: Developpement ★☆☆☆☆
+developpement: Developpement ★★☆☆☆
 cybercerurité: Cybercecurité ★★★☆☆
 anglais:       Anglais       ★★☆☆☆
 francais:      Francais      ★★☆☆☆
-score: 
+math:          Math          ★★★★☆
+
+html: html ★★★☆☆
+css: css   ★★★☆☆
+php: php   ★★☆☆☆
+sql: sql   ★★★☆☆
+
 certif: Musso Alexandre.pdf

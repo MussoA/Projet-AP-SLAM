@@ -22,8 +22,6 @@ header {
   text-align: center;
 }
 
-
-
   .logo {
     max-width: 100px;
     height: auto;
@@ -35,10 +33,6 @@ nav {
   padding: 5px;
 
 }
-
-
-
-
 
 main {
   padding: 20px;
@@ -58,3 +52,10 @@ footer {
   width: 100%;
 }
 
+article {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 15px;
+  margin: 10px;
+  background-color: #236baa;
+  color: black;
+}
